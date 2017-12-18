@@ -1,0 +1,758 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Covered By Your Grace';
+  outline: 0;
+}
+
+#body {
+  background-image: url(img/start.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#start {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 11%;
+  left: 660px;
+}
+
+#opties {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 45.5%;
+  left: 195px;
+}
+
+#quit {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 45.5%;
+  right: 142px;
+}
+
+#desk {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 45.5%;
+  right: 50px;
+}
+
+#Desk {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 45.5%;
+  right: 50px;
+}
+
+#drawer {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 62.5%;
+  left: 0;
+}
+
+#sleep {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 65%;
+  left: 560px;
+}
+
+#Sleep {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 65%;
+  left: 560px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+#Curtain {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 11%;
+  left: 560px;
+}
+
+#curtain {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 11%;
+  left: 560px;
+}
+
+#drawer {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 62.5%;
+  left: 0;
+}
+
+#drawer1 {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+#drawer2 {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 62.5%;
+  left: 0;
+}
+
+#house {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 64%;
+  left: 342px;
+  color: cornsilk;
+}
+
+#Right1 {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 29.5%;
+  left: 23px;
+  color: cornsilk;
+}
+
+#Left1 {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 42.5%;
+  right: 36px;
+  color: cornsilk;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dialog {
+  font-family: 'Covered By Your Grace';
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  width: 50%;
+  margin-left: 24%;
+  top: 12%;
+  position: absolute;
+}
+
+#continue {
+  font-size: 40px;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+}
+
+#Continue {
+  font-size: 40px;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+}
+
+p {
+  margin-top: 50px;
+}
+
+#device {
+  background-image: url(img/device.png);
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  left: 63%;
+  top: 15%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+  text-align: left;
+  font-size: 40px;
+}
+
+#voedsel {
+  background-image: url(img/hotdog.png);
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  left: 63%;
+  top: 25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+  font-size: 40px;
+}
+
+#desk1 {
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background: inherit;
+  font-size: 30px;
+  border: none;
+}
+
+#upstairs {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 0.5%;
+  left: 23px;
+  color: cornsilk;
+}
+
+#kitchen {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 33.5%;
+  right: 459px;
+  color: cornsilk;
+}
+
+#death {
+  color: cornsilk;
+  background-size: auto;
+  text-align: center;
+  top: 40%;
+  font-size: 40px;
+}
+
+#outside {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 45.5%;
+  left: 23px;
+  color: cornsilk;
+}
+
+#wood {
+  background-image: url(img/hout.png);
+  position: absolute;
+  width: 10vw;
+  height: 20vh;
+  left: 47%;
+  top: 12%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+}
+
+#Back {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 33.5%;
+  left: 244px;
+  color: cornsilk;
+}
+
+#back {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 33.5%;
+  left: 244px;
+  color: cornsilk;
+}
+
+#poppy {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 42.5%;
+  right: 36px;
+  color: cornsilk;
+}
+
+#hammer {
+  background-image: url(img/axe.png);
+  position: absolute;
+  width: 18vw;
+  height: 47.8vh;
+  left: 32.29%;
+  top: 38%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+  color: cornsilk;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#death2 {
+  color: cornsilk;
+  background-size: auto;
+  text-align: center;
+  top: 40%;
+  font-size: 40px;
+}
+
+#no {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 33.5%;
+  left: 244px;
+  color: cornsilk;
+}
+
+#yes {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 33.5%;
+  right: 244px;
+  color: cornsilk;
+}
+
+#outside2 {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 65.5%;
+  left: 91px;
+  color: cornsilk;
+}
+
+#Left2 {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 12.5%;
+  right: 115px;
+  color: cornsilk;
+}
+
+#tree {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 16.5%;
+  left: 350px;
+  color: cornsilk;
+}
+
+#bush {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 65.5%;
+  right: 36px;
+  color: cornsilk;
+}
+
+#up {
+  font-size: 30px;
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+#return {
+  font-size: 30px;
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+#item1 {
+  background-image: url(img/sparkle.png);
+  border-radius: 100%;
+  border: none;
+  top: 65%;
+  left: 560px;
+  position: absolute;
+  width: 18vw;
+  height: 27.8vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  color: cornsilk;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+#back3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 65.5%;
+  left: 36px;
+  color: cornsilk;
+}
+
+#wizard {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 47.5%;
+  left: 505px;
+  color: cornsilk;
+}
+
+#up3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: none;
+  background: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 65.5%;
+  right: 386px;
+  color: cornsilk;
+}
+
+#back4 {
+  font-size: 30px;
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+#back6 {
+  font-size: 30px;
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+#shroom {
+  background-image: url(img/shroom.png);
+  position: absolute;
+  width: 3vw;
+  height: 6vh;
+  left: 18%;
+  top: 90%;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+}
+
+#dier {
+  background-image: url(img/eekhoorn.png);
+  position: absolute;
+  width: 8vw;
+  height: 5vh;
+  left: 20%;
+  top: 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+}
+
+#stok {
+  background-image: url(img/Stick.png);
+  position: absolute;
+  width: 3vw;
+  height: 4vh;
+  left: 71%;
+  top: 90%;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+}
+
+#wizar {
+  background-image: url(img/heks.png);
+  position: absolute;
+  width: 35vw;
+  font-size: 30px;
+  height: 70vh;
+  left: 53%;
+  top: 27%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+  text-decoration: none;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+#pot {
+  background-image: url(img/Cauldron.png);
+  position: absolute;
+  width: 20vw;
+  height: 30vh;
+  left: 20%;
+  top: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+}
+
+#back5 {
+  font-size: 30px;
+  position: absolute;
+  top: 95%;
+  left: 42%;
+  border: none;
+  text-decoration: none;
+  background: inherit;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+#stew {
+  background-image: url(img/stewie.png);
+  position: absolute;
+  width: 20vw;
+  height: 30vh;
+  left: 41%;
+  top: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+}
+
+#baas {
+  background-image: url(img/baas.png);
+  position: absolute;
+  width: 25vw;
+  height: 49vh;
+  left: 66%;
+  top: 18%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+  color: cornsilk;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#victory p{
+  font-family: 'Covered By Your Grace';
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  width: 50%;
+  margin-left: 24%;
+  top: 12%;
+  position: absolute;
+}
